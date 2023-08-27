@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Create Your VERY OWN Todolist!</h1>
-    <a href="/login"> Login</a>
-    <a href="/signup"> Signup</a>
-</body>
-</html>
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+    
+    <div class="container flex">
+        <h1 class="title">Task Manager</h1>
+        <p class="sub-title">Simplify your daily tasks with our intuitive Task Manager.</p>
+        <div class="buttons">
+          <a href="/login" class="button">Login</a>
+          <a href="/signup" class="button">Sign Up</a>
+        </div>
+      </div>
+    
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->
